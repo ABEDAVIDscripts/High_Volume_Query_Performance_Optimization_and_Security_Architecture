@@ -616,6 +616,7 @@ The objective is to ensure access is intentional, minimal, and auditable.
 | Aggregated metrics  | Low         | Non-identifiable analytics          |
 
 Sensitive tables require explicit, role-based access.
+
 <br>
 
 - Role Model (Design-Level)
@@ -643,7 +644,8 @@ Roles represent job functions rather than users; no role has unrestricted daily 
 
 #### 5.2. Role-Based Access Control (RBAC)
 
-```sql
+```SQL
+
 -- Administrative role
 CREATE ROLE db_admin NOLOGIN;
 
@@ -918,6 +920,5 @@ This phase demonstrates production-grade PostgreSQL governance suitable for regu
 
 ## Final Notes
 
-This case study focuses on performance and security engineering in an inherited PostgreSQL system. 
-Schema design, data modeling, and application-layer concerns were intentionally treated as pre-existing 
-to reflect real-world database optimization work.
+This case study focuses on performance and security engineering in an inherited PostgreSQL system. <BR>
+Schema design, data modeling, and application-layer concerns were intentionally treated as pre-existing to reflect real-world database optimization work.
