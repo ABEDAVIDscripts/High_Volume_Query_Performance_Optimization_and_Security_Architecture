@@ -11,7 +11,7 @@ This production case study simulates a real-world PostgreSQL system operating at
 - Design and enforce production-grade database security
 - Validate improvements through execution plans and role-based testing <br>
 
-Instead of designing a schema from scratch, this project starts from an inherited system with performance and security debt, reflecting how databases typically evolve in real organizations.
+Instead of designing a schema from scratch, this case study starts from an inherited system with performance and security debt, reflecting how databases typically evolve in real organizations.
 
 
 <br>
@@ -49,7 +49,7 @@ Instead of designing a schema from scratch, this project starts from an inherite
 
 This case study assumes an operational PostgreSQL environment with existing schemas and production data already loaded. Database setup and connectivity are treated as baseline operational knowledge and are intentionally excluded from the core documentation. <br>
 
-The project begins at the point where real-world database engineering work typically starts: improving an inherited system under load.
+The case study begins at the point where real-world database engineering work typically starts: improving an inherited system under load.
 
 <br>
 <br>
